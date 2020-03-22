@@ -1,4 +1,4 @@
-
+require 'pry'
 def turtles
     [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -15,3 +15,4 @@ def turtle_traits(turtles)
     end
   end
 end
+binding.pry
