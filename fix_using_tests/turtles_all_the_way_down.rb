@@ -7,6 +7,7 @@ def turtles
       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}
     ]
 end
+binding.pry
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
@@ -15,4 +16,3 @@ def turtle_traits(turtles)
     end
   end
 end
-binding.pry
