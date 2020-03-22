@@ -8,7 +8,7 @@ end
 def state_log(star_date)
   "Captain's Log, #{star_date}."
 end
-#binding.pry
+binding.pry
 
 def crew
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
