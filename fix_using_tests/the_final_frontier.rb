@@ -16,7 +16,7 @@ end
 def greet_crew (crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
-#binding.pry
+binding.pry
 
 def engage
   date = generate_star_date
